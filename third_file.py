@@ -7,7 +7,7 @@ def print_hello_world():
 print_hello_world()
 
 
-def print_my_name():
-    print("My name is Hugo")
+def print_my_name(name):
+    print(f"Hi! My name is {name}!")
 
 print_my_name()
